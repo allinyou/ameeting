@@ -7,9 +7,9 @@
     <title>A圈见</title>
 </head>
 <body>
-    <img src="" alt="" class="bg-img">
-    <a href="">
-        <img src="" alt="">
+    <img src="img/bg-img.gif" alt="" class="bg-img">
+    <a href="https://www.baidu.com">
+        <img src="img/btn-img.gif" alt="">
     </a>
 </body>
 </html>
@@ -17,11 +17,11 @@
 //音频
 var audio = new Audio();
 var index = 0;
-var songs = ['audio/C400004FjJo32TISsY.mp3'];
+var songs = ['audio/bg.mp3'];
 audio.src = songs[0];   // songs[index]
 audio.autoplay = true;
 
 audio.addEventListener('ended', function() {
-    audio.src = 'audio/C400004FjJo32TISsY.mp3';
+    audio.src = 'audio/bg.mp3';
 })
 </script>

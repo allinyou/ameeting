@@ -12,8 +12,9 @@ body {
 a {
   display: block;
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
+  width: 27%;
   transform: translateX(-50%);
   text-decoration: none;
 }
