@@ -9,10 +9,17 @@ body {
   display: block;
   width: 100%;
 }
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 92%;
+}
 a {
   display: block;
   position: absolute;
-  top: 70%;
+  top: 72%;
   left: 50%;
   width: 27%;
   transform: translateX(-50%);
