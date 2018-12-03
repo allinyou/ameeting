@@ -11,13 +11,13 @@
     <a href="https://www.baidu.com">
         <img src="img/btn-img.gif" alt="">
     </a>
-    <audio src="./audio/bg.mp3" autoplay="autoplay" controls="controls"></audio>
+    <audio src="./audio/bg.mp3"  controls="controls"></audio>
 </body>
 </html>
 <script>
 //音频
 var audio = document.querySelector('audio');
-
+audio.play();
 audio.addEventListener('ended', function() {
     audio.src = './audio/bg.mp3';
     audio.play();
