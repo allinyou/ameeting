@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>A圈见</title>
+</head>
+<body>
+    <img src="" alt="" class="bg-img">
+    <a href="">
+        <img src="" alt="">
+    </a>
+</body>
+</html>
+<script>
+//音频
+var audio = new Audio();
+var index = 0;
+var songs = ['audio/C400004FjJo32TISsY.mp3'];
+audio.src = songs[0];   // songs[index]
+audio.autoplay = true;
+
+audio.addEventListener('ended', function() {
+    audio.src = 'audio/C400004FjJo32TISsY.mp3';
+})
+</script>
