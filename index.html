@@ -17,7 +17,13 @@
 <script>
 //音频
 var audio = document.querySelector('audio');
-audio.play();
+document.addEventListener("WeixinJSBridgeReady", function () {
+    audio.play();
+}, false);
+document.addEventListener('YixinJSBridgeReady', function() {
+    audio.play();
+}, false);
+
 audio.addEventListener('ended', function() {
     audio.src = './audio/bg.mp3';
     audio.play();
